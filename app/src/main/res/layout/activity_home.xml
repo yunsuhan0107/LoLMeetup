@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MembersList">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Members"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/profile1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Aleksey Tsoy" />
+
+            <CheckBox
+                android:id="@+id/profile2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Alex Belanger X" />
+
+            <CheckBox
+                android:id="@+id/profile3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Amiirul" />
+
+            <CheckBox
+                android:id="@+id/profile4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Anthony Nguyen" />
+
+            <CheckBox
+                android:id="@+id/profile5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Benjamin Teo" />
+
+            <CheckBox
+                android:id="@+id/profile6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Celle" />
+
+            <CheckBox
+                android:id="@+id/profile7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Dagur Leo Bergsson" />
+
+            <CheckBox
+                android:id="@+id/profile8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Dan Kwon" />
+
+            <CheckBox
+                android:id="@+id/profile9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Daven Wang" />
+
+            <CheckBox
+                android:id="@+id/profile10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="DragonBread" />
+
+            <CheckBox
+                android:id="@+id/profile11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Emmy" />
+
+            <CheckBox
+                android:id="@+id/profile12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Eric Lee" />
+
+            <CheckBox
+                android:id="@+id/profile13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Eric S." />
+
+            <CheckBox
+                android:id="@+id/profile14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Eva" />
+
+            <CheckBox
+                android:id="@+id/profile15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="faithful jeremiah" />
+
+            <CheckBox
+                android:id="@+id/profile16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Franciszek Gbur" />
+
+            <CheckBox
+                android:id="@+id/profile17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Glen" />
+
+            <CheckBox
+                android:id="@+id/profile18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Grace" />
+
+            <CheckBox
+                android:id="@+id/profile19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Hunter" />
+
+            <CheckBox
+                android:id="@+id/profile20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Jang Heewon" />
+
+            <CheckBox
+                android:id="@+id/profile21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="jay" />
+
+            <CheckBox
+                android:id="@+id/profile22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Jessica Link" />
+
+            <CheckBox
+                android:id="@+id/profile23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Ji Hoon" />
+
+            <CheckBox
+                android:id="@+id/profile24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Jordan" />
+
+            <CheckBox
+                android:id="@+id/profile25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Kaeson" />
+
+            <CheckBox
+                android:id="@+id/profile26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Kiki" />
+
+            <CheckBox
+                android:id="@+id/profile27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Mandu" />
+
+            <CheckBox
+                android:id="@+id/profile28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="mario kim" />
+
+            <CheckBox
+                android:id="@+id/profile29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Mark" />
+
+            <CheckBox
+                android:id="@+id/profile30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Marta" />
+
+            <CheckBox
+                android:id="@+id/profile31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Matt Kawamoto" />
+
+            <CheckBox
+                android:id="@+id/profile32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Matt Seongdeok Moon" />
+
+            <CheckBox
+                android:id="@+id/profile33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Meg" />
+
+            <CheckBox
+                android:id="@+id/profile34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Michael" />
+
+            <CheckBox
+                android:id="@+id/profile35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Minseong Kim (김민성)" />
+
+            <CheckBox
+                android:id="@+id/profile36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Nigel Lee" />
+
+            <CheckBox
+                android:id="@+id/profile37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Rebecca" />
+
+            <CheckBox
+                android:id="@+id/profile38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Robi Lajara" />
+
+            <CheckBox
+                android:id="@+id/profile39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Shane" />
+
+            <CheckBox
+                android:id="@+id/profile40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Sora" />
+
+            <CheckBox
+                android:id="@+id/profile41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Tae S" />
+
+            <CheckBox
+                android:id="@+id/profile42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Woo Hyun" />
+
+            <CheckBox
+                android:id="@+id/profile43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Zach" />
+
+            <CheckBox
+                android:id="@+id/profile44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Андрей" />
+
+            <CheckBox
+                android:id="@+id/profile45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="노준철 Loui" />
+
+            <CheckBox
+                android:id="@+id/profile46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="홍승현" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

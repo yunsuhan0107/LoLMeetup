@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Profile44">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/account1"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"/>
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Андрей"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/main44"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="NoisyPo1"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/second1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/pos12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Position"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/posInfo12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Top 4 Jungle 2 Mid 3 ADC 1 Sup 4"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/rank1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rank"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/rankInfo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bronze 4"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/mode1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modes I Usually Play"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/modeInfo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Normals"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/days1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Days I usually Play"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/daysInfo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Everyday + Random"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/time1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time I usually Play"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/timeInfo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Random"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/kor1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KOR level"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/korInfo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/back44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#FFEB3B"
+            android:text="go back" />
+
+    </LinearLayout>
+</LinearLayout>

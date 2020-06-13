@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lolmeetup">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity"/>
+        <activity android:name=".Profile1"/>
+        <activity android:name=".Profile2"/>
+        <activity android:name=".Profile3"/>
+        <activity android:name=".Profile4"/>
+        <activity android:name=".Profile5"/>
+        <activity android:name=".Profile6"/>
+        <activity android:name=".Profile7"/>
+        <activity android:name=".Profile8"/>
+        <activity android:name=".Profile9"/>
+        <activity android:name=".Profile10"/>
+        <activity android:name=".Profile11"/>
+        <activity android:name=".Profile12"/>
+        <activity android:name=".Profile13"/>
+        <activity android:name=".Profile14"/>
+        <activity android:name=".Profile15"/>
+        <activity android:name=".Profile16"/>
+        <activity android:name=".Profile17"/>
+        <activity android:name=".Profile18"/>
+        <activity android:name=".Profile19"/>
+        <activity android:name=".Profile20"/>
+        <activity android:name=".Profile21"/>
+        <activity android:name=".Profile22"/>
+        <activity android:name=".Profile23"/>
+        <activity android:name=".Profile24"/>
+        <activity android:name=".Profile25"/>
+        <activity android:name=".Profile26"/>
+        <activity android:name=".Profile27"/>
+        <activity android:name=".Profile28"/>
+        <activity android:name=".Profile29"/>
+        <activity android:name=".Profile30"/>
+        <activity android:name=".Profile31"/>
+        <activity android:name=".Profile32"/>
+        <activity android:name=".Profile33"/>
+        <activity android:name=".Profile34"/>
+        <activity android:name=".Profile35"/>
+        <activity android:name=".Profile36"/>
+        <activity android:name=".Profile37"/>
+        <activity android:name=".Profile38"/>
+        <activity android:name=".Profile39"/>
+        <activity android:name=".Profile40"/>
+        <activity android:name=".Profile41"/>
+        <activity android:name=".Profile42"/>
+        <activity android:name=".Profile43"/>
+        <activity android:name=".Profile44"/>
+        <activity android:name=".Profile45"/>
+        <activity android:name=".Profile46"/>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
